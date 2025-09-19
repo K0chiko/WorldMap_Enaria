@@ -1,0 +1,16 @@
+{
+  "buttons": {
+    "btn1": {
+      "title": "История династии",
+      "file": "texts/btn1.json"
+    },
+    "btn2": {
+      "title": "Политика",
+      "file": "texts/btn2.json"
+    },
+    "btn3": {
+      "title": "Культура",
+      "file": "texts/btn3.json"
+    }
+  }
+}

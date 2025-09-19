@@ -1,25 +1,20 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class CloseRegionPanel : MonoBehaviour
 {
-
-    private Button regionInfoButton;
-    public PanelController panelRegionInfo;
+    private Button closeButton;
+    public PanelAnimator panelAnimator;
 
     void Start()
     {
-        regionInfoButton = GetComponent<Button>();
-        regionInfoButton.onClick.AddListener(panelRegionInfo.HidePanel);
+        closeButton = GetComponent<Button>();
 
+
+        closeButton.onClick.AddListener(() =>
+        {
+            bool isMobile = ScreenChecker.IsMobileScreen();
+            panelAnimator.HidePanel(isMobile);
+        });
     }
-
-
-
 }
-
-
-
-

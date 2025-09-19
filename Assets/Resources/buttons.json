@@ -1,0 +1,24 @@
+{
+  "buttons": [
+    {
+      "id": "btn_BlackForest",
+      "title": "Чернолесье",
+      "file": "texts/btn_BlackForest"
+    },
+    {
+      "id": "btn_IronHills",
+      "title": "Железные Холмы",
+      "file": "texts/btn_IronHills"
+    },
+    {
+      "id": "btn_RedCliff",
+      "title": "Красные Утёсы",
+      "file": "texts/btn_RedCliff"
+    },
+    {
+      "id": "btn_SouthGate",
+      "title": "Южные Врата",
+      "file": "texts/btn_SouthGate"
+    }
+  ]
+}

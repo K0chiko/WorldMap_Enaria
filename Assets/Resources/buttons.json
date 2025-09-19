@@ -1,24 +1,69 @@
 {
   "buttons": [
     {
-      "id": "btn_BlackForest",
+      "id": "BlackForest",
       "title": "Чернолесье",
-      "file": "texts/btn_BlackForest"
+      "file": "texts/BlackForest"
     },
     {
-      "id": "btn_IronHills",
+      "id": "BlueShore",
+      "title": "Лазурный Залив",
+      "file": "texts/BlueShore"
+    },
+    {
+      "id": "Cliff",
+      "title": "Утёс",
+      "file": "texts/Cliff"
+    },
+    {
+      "id": "FloweringMeadow",
+      "title": "Цветущий Луг",
+      "file": "texts/FloweringMeadow"
+    },
+    {
+      "id": "GoldenRiver",
+      "title": "Златоречье",
+      "file": "texts/GoldenRiver"
+    },
+    {
+      "id": "LakeLands",
+      "title": "Озёрный Край",
+      "file": "texts/LakeLands"
+    },
+    {
+      "id": "Islands",
+      "title": "Острова",
+      "file": "texts/Islands"
+    },
+    {
+      "id": "IronHills",
       "title": "Железные Холмы",
-      "file": "texts/btn_IronHills"
+      "file": "texts/IronHills"
     },
     {
-      "id": "btn_RedCliff",
+      "id": "OldForest",
+      "title": "Старый Лес",
+      "file": "texts/OldForest"
+    },
+    {
+      "id": "RiverLands",
+      "title": "Речные Земли",
+      "file": "texts/RiverLands"
+    },
+    {
+      "id": "RedCliff",
       "title": "Красные Утёсы",
-      "file": "texts/btn_RedCliff"
+      "file": "texts/RedCliff"
     },
     {
-      "id": "btn_SouthGate",
+      "id": "SouthGate",
       "title": "Южные Врата",
-      "file": "texts/btn_SouthGate"
+      "file": "texts/SouthGate"
+    },
+    {
+      "id": "Vale",
+      "title": "Долина",
+      "file": "texts/Vale"
     }
   ]
 }

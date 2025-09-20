@@ -49,17 +49,14 @@ public class Province : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (CameraController.ClickBlocked)
+            return; // клик отменён, т.к. это был drag
+
         bool isMobile = ScreenChecker.IsMobileScreen();
 
         textLoader.LoadText(provinceId);
         panelAnimator.ShowPanel(isMobile);
     }
 
-/*    private void OnButtonClick()
-    {
-        bool isMobile = ScreenChecker.IsMobileScreen();
 
-        textLoader.LoadText(buttonId);
-        panelAnimator.ShowPanel(isMobile);
-    }*/
 }
